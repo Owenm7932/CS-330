@@ -18,5 +18,59 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #87ceeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#Title{
+  font-size: 4em;
+  color: #FFBD1C;
+}
+
+img#CoverArt {
+  max-width: 350px;
+  height: auto;
+  border-radius: 70%;
+  }
+
+  #Rating{
+    font-size: 1em;
+    color: white
+  }
+
+  #Trailer{
+    margin-bottom: 20px;
+  }
+
+  #Summary{
+    font-size: 1em;
+    color: white;
+    line-height: 2;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #Starring{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+
+  #Actors{
+    list-style-type: none;
+    color: white;
+    Padding: 0;
+    line-height: 1.75;
+    margin-top: 2px;
+  }
